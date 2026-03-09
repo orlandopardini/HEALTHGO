@@ -1,6 +1,6 @@
-# 🏥 Plataforma Inteligente de Saúde - MVP
+# HEALTHGO!! - A Plataforma Inteligente de Saúde
 
-## 📋 Visão Geral
+## Visão Geral
 
 Plataforma completa de saúde e bem-estar com agentes de IA que fornecem:
 - ✅ Avaliação de riscos de saúde
@@ -10,7 +10,7 @@ Plataforma completa de saúde e bem-estar com agentes de IA que fornecem:
 - 📊 Rastreamento de progresso
 - 🎨 Interface web profissional
 
-## 🚀 Instalação Rápida
+## Instalação Rápida
 
 ### Pré-requisitos
 - Python 3.10 ou superior (mas inferior a 3.14)
@@ -154,22 +154,7 @@ Após iniciar o backend, acesse:
 - Swagger UI: http://localhost:8000/docs
 - ReDoc: http://localhost:8000/redoc
 
-## 🤝 Suporte
-
-Para problemas ou dúvidas:
-1. Verifique os logs em `app/logs/`
-2. Consulte a documentação completa em `app/docs/`
-3. Revise as issues conhecidas abaixo
-
-## 🐛 Issues Conhecidas
-
-- O navegador pode solicitar permissão para notificações (opcional)
-- Primeira execução pode levar mais tempo devido ao carregamento de modelos de IA
-
-## 📄 Licença
-
-Este é um projeto MVP para demonstração.
-
 ---
 
 **Desenvolvido com CrewAI, React e Supabase**
+
