@@ -1,0 +1,24 @@
+[project]
+name = "intelligent_health_platform_mvp_builder"
+version = "0.1.0"
+description = "intelligent_health_platform_mvp_builder using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[litellm,tools]==1.10.1",
+]
+
+[project.scripts]
+intelligent_health_platform_mvp_builder = "intelligent_health_platform_mvp_builder.main:run"
+run_crew = "intelligent_health_platform_mvp_builder.main:run"
+train = "intelligent_health_platform_mvp_builder.main:train"
+replay = "intelligent_health_platform_mvp_builder.main:replay"
+test = "intelligent_health_platform_mvp_builder.main:test"
+run_with_trigger = "intelligent_health_platform_mvp_builder.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
